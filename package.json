@@ -1,0 +1,27 @@
+{
+  "name": "api-rest-node",
+  "version": "1.0.0",
+  "description": "Proyecto de API REST con node.js express mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalisaria/api-rest-node.git"
+  },
+  "author": "Dana Annette Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kalisaria/api-rest-node/issues"
+  },
+  "homepage": "https://github.com/Kalisaria/api-rest-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
