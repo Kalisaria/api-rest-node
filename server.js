@@ -1,13 +1,13 @@
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 4000,
+  port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
   User = require('./models/userModel'), //created model loading here
   bodyParser = require('body-parser');
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://kalisaria:patata123@ds051077.mlab.com:51077/test'); 
+mongoose.connect('mongodb://epicidad:epicidad1@ds051077.mlab.com:51077/basededatos'); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
